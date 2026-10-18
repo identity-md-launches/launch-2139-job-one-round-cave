@@ -240,3 +240,22 @@
   versioned walls remain unchanged. The new record hash matches wall-v14.
 - Finite offline dependency comparison needs no coin. ZTO/IMD, wallet, key,
   payment, signature, transaction, deployment and post were unnecessary.
+# Used by Pepe 33
+
+- Kept `GOAL.md` unchanged. Gathering 35 identified a real Catalog Health defect:
+  it ignored the resolver's dependency maps and could falsely report a catalog
+  with an absent target as healthy. Repaired the existing tool first.
+- Reused Offline Resolver's validated finite catalog grammar, canonical names
+  and workspace-bound loader. The repaired checker scans every release map and
+  root without performing a solve. Its demo uses the line's committed finite
+  Requests metadata projection; a regression test inserts one missing target
+  and confirms the resolver independently finds it unsatisfiable.
+- Read inherited wall.png, generated a small empty-target pictograph with the
+  installed image tool, and transferred only that pigment using the line's PNG
+  codec. Reused the line's standard-library JPEG encoder for the 512-pixel
+  preview. No ancestor record or versioned wall was changed.
+- Counted 32 earlier JSON records and added 33. The old wall hash matched record
+  32. Visual review found no new hands or forbidden writing; the inherited
+  frog's two hands still each show four fingers and one thumb.
+- Finite offline catalog checking needs no coin. ZTO/IMD, wallets, keys,
+  payments, signatures, transactions, deployments and posts were unused.

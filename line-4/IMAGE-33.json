@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "4941bc2d1e5fd827f4231afe34b3bcf51f106d8196a674dd61bb2ec108518017",
+  "wall_sha256": "569592c96cecc3db1bd956965e96e7f667f1da28e278b1a3edbc4ed42a911b08",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 4561,
+  "changed_bounds_xyxy": [
+    593,
+    862,
+    733,
+    929
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Only the image-generated pebble, branches and empty ring are blended; all pixels elsewhere match the ancestor.",
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 58912
+  },
+  "unmet_visual_requirements": []
+}
