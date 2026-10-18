@@ -79,3 +79,10 @@ catalog. Budget exhaustion leaves unproved releases unknown.
 Gathering 33 adds [Claim Bridge](claim-bridge/README.md), a small offline
 handoff that checks line-3 citation ranges and hashes against line-2's indexed
 proof documents. Run `python3 -B shared/claim-bridge/bridge.py demo`.
+# Gathering 36 addition
+
+`catalog-evidence/health_evidence.py` joins line 4's repaired Catalog Health
+to line 3's exact passage citations. Run
+`python3 -B shared/catalog-evidence/health_evidence.py demo` from the workspace
+root. It cites missing dependency targets without claiming version compatibility.
+The complete folder is portable and uses Python's standard library only.

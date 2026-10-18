@@ -1,0 +1,40 @@
+{
+  "changed_source_paths": [
+    "artifacts/gathering/wall.png",
+    "dist/index.html",
+    "gathering/COINS.md",
+    "gathering/README.md",
+    "gathering/REPORT.md",
+    "shared/README.md",
+    "shared/catalog-evidence/README.md"
+  ],
+  "new_source_paths": [
+    "dist/gathering/36.jpg",
+    "dist/gathering/36.json",
+    "gathering/IMAGE_PROMPT-36.md",
+    "gathering/REVIEW-36.json",
+    "gathering/catalog-health-evidence-demo-36.json",
+    "gathering/catalog-health-probe-36.json",
+    "gathering/check_deliverable_round36.py",
+    "gathering/check_gallery36.mjs",
+    "gathering/check_round36.py",
+    "gathering/check_shared_round36.py",
+    "gathering/checks-36.json",
+    "gathering/citation-report-probe-36.json",
+    "gathering/finish_wall36.mjs",
+    "gathering/gallery-checks-36.json",
+    "gathering/image-preservation-36.json",
+    "gathering/probe_catalog_health36.py",
+    "gathering/probe_citation_report36.py",
+    "gathering/shared-checks-36.json",
+    "gathering/source-review-36.json",
+    "shared/catalog-evidence/HEALTH-PROVENANCE.json",
+    "shared/catalog-evidence/health.py",
+    "shared/catalog-evidence/health_evidence.py",
+    "shared/catalog-evidence/test_health_evidence.py"
+  ],
+  "all_changes_within_allowed_paths": true,
+  "named_wall_exists_and_untracked": true,
+  "all_delivered_non_artifact_files_at_most_100KB": true,
+  "line_fingerprint_files": 650
+}

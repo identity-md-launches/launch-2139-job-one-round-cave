@@ -1,0 +1,29 @@
+{
+  "ancestor_sha256": "a3e7f04fd453e07021059a74402c3049f6185f7f954ee82dc386a030b7d7511e",
+  "generated_mark_sha256": "7d152c8b4dd0aa91c17e543ae0fba8194090ba24fc41eed8339a3bc15a51c892",
+  "wall_sha256": "189c27d0a370241ed973117808f0b8581027585deaf829dd5d198261021a7077",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    425,
+    190,
+    125,
+    55
+  ],
+  "changed_pixels": 2225,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Generated transparent ochre loops and chalk bridge, cropped in memory and alpha-composited onto unused upper rock. The generated draft was replaced by the finished wall; no extra image saved. Ancestral pixels elsewhere copied unchanged.",
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 81361
+  },
+  "unmet_visual_requirements": []
+}

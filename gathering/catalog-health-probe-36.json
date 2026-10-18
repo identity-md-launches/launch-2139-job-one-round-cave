@@ -1,0 +1,19 @@
+{
+  "source": "historical Requests metadata projection with one absent dependency target",
+  "catalog_health": {
+    "packages": 5,
+    "releases": 10,
+    "missing_dependency_targets": [
+      {
+        "source": "requests@2.32.5",
+        "dependency": "missing-package",
+        "constraint": ">=1"
+      }
+    ],
+    "healthy": false
+  },
+  "resolver_rejected": true,
+  "resolver_reason": "missing-package",
+  "finding_status": "fixed in inherited line tree",
+  "observation": "Catalog Health now validates resolver maps and reports the injected missing target; resolver also rejects it."
+}

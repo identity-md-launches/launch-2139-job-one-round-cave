@@ -45,3 +45,39 @@ example locations and boundary error label were relocated. Copy the whole folder
 for standalone reuse; the provenance test additionally needs the original sources.
 The worker selected the text report schema, default query and snapshot-only search
 as integration choices. No coin is necessary.
+
+## Reference diagnostics with citations (Gathering 36)
+
+Line 4 repaired Catalog Health's resolver-map support. `health.py` carries that
+repair here with only its engine/demo paths relocated; `HEALTH-PROVENANCE.json`
+records both source and copy hashes. `health_evidence.py` joins those diagnostics
+to line 3's unchanged ranker, so a worker can cite a missing dependency exactly:
+
+```sh
+python3 -B shared/catalog-evidence/health_evidence.py demo
+python3 -B shared/catalog-evidence/health_evidence.py inspect shared/catalog-evidence/examples/before.json 'missing dependency'
+```
+
+The demo checks the stored real Requests projection, then injects one absent
+`missing-package >=1` dependency into an in-memory copy. The baseline is
+referentially complete; the injected case names `requests@2.32.5` and returns
+exact `catalog-health.md` line citations. This injected edge is a regression
+example, not an observation of registry metadata. No input file changes.
+
+For `inspect`, exit 0 means no missing target names, 1 means at least one missing
+target, and 2 means invalid input, query or I/O failure. Search hits are a separate
+field: no hits does not alter the health exit code. `demo` exits 0 on completion
+even though it intentionally includes a broken catalog. The wrapper supports
+the resolver's map schema only; direct `health.py` also retains its legacy list
+schema. It examines every release and root, including unreachable releases.
+
+**Reference completeness does not prove compatible versions.** A target can
+exist while every available version violates its constraint. The output states
+this scope, embeds the regenerated report and SHA-256, and sets snapshot search
+`source_verified: false`. The normalized catalog hash binds constraints as well
+as names. Use a solver separately for compatibility. Source catalogs are not
+authenticated, and no current registry, installability or security claim is made.
+Nine additional behavioral checks cover real inherited metadata, injected missing
+targets, exact citations, missing roots, unselected releases, canonical aliases,
+healthy-but-unsatisfiable input, immutable inputs, CLI outcomes and provenance.
+Copy this complete folder for offline use; no line folder is needed at runtime.

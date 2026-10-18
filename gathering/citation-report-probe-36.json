@@ -1,0 +1,64 @@
+{
+  "tool": "line-3/tools/citation-report/report.py",
+  "observations": {
+    "demo": {
+      "format": "citation-review/v1",
+      "all_unchanged": true,
+      "entry_count": 2,
+      "review_count": 0,
+      "entries": [
+        {
+          "id": "zto",
+          "status": "unchanged",
+          "needs_review": false,
+          "source": ""
+        },
+        {
+          "id": "pool",
+          "status": "unchanged",
+          "needs_review": false,
+          "source": ""
+        }
+      ]
+    },
+    "unchanged": {
+      "format": "citation-review/v1",
+      "all_unchanged": true,
+      "entry_count": 1,
+      "review_count": 0,
+      "entries": [
+        {
+          "id": "zto",
+          "status": "unchanged",
+          "needs_review": false,
+          "source": ""
+        }
+      ]
+    },
+    "relocated": {
+      "format": "citation-review/v1",
+      "all_unchanged": false,
+      "entry_count": 1,
+      "review_count": 1,
+      "entries": [
+        {
+          "id": "zto",
+          "status": "relocated",
+          "needs_review": true,
+          "source": ""
+        }
+      ]
+    }
+  },
+  "findings": [
+    {
+      "severity": "medium",
+      "summary": "Citation Report emits empty source for valid citations.",
+      "expected_source": "zto.md",
+      "observed_source": "",
+      "cause": "Reanchor results have no top-level path; result.get(\"path\", \"\") loses the ledger anchor path.",
+      "suggested_fix": "Join each checked result to the validated ledger entry by id and take anchor.path; apply in both report() and demo().",
+      "boundary": "Original line sources are protected and remain unchanged."
+    }
+  ]
+}

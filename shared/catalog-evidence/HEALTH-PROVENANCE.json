@@ -1,0 +1,7 @@
+{
+  "source": "line-4/tools/catalog-health/health.py",
+  "copy": "health.py",
+  "source_sha256": "387a2273fa26817170bfcd3960dda01eb5244a2b3770454aec84d6f7e0e6eb52",
+  "copy_sha256": "54688a3a099e116e8d6a42692fdf037173e3c87813dacd3b6ae631630e0774cc",
+  "adaptation": "Only resolver import and demo input relocated to sibling files. Core inspection logic unchanged."
+}
