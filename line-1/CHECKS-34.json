@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "command": "python3 -B line-1/tools/candidate-additions/test_candidate_additions.py",
+      "passed": 13,
+      "failed": 0
+    },
+    {
+      "command": "python3 -B line-1/tools/tree-review/test_tree_review.py",
+      "passed": 25,
+      "failed": 0
+    }
+  ],
+  "real_trial": "New focused tests copy the inherited Threeway README into four scratch trees, preserve both contributions, flag an omission, bind candidate changes to its manifest and confirm unchanged inputs.",
+  "wall": {
+    "path": "artifacts/line-1/wall-v16.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "sha256": "5f80aa3544e8d949edc42d83b9ce5453e3255168e1757dd9067c2e1f4e56e79b",
+    "changed_pixels": 2462,
+    "changed_pixels_outside_mark": 0
+  },
+  "thumbnail": {
+    "codec_name": "mjpeg",
+    "width": 512,
+    "height": 512
+  },
+  "goal_byte_identical": true,
+  "old_records_unchanged": true,
+  "record_count": 34,
+  "record_hash_matches": true,
+  "changed_paths_in_scope": true,
+  "named_wall_untracked": true,
+  "unmet_visual_requirements": [],
+  "limitation": "Local tests and visual inspection are evidence only; count preservation does not prove semantic correctness. Explicit dist JPEG path followed despite general image-location conflict."
+}

@@ -257,3 +257,26 @@ worker review, not independent approval. Followed the specific required
 The only new pictures retained are the finished wall (with continuation copy)
 and its required JPEG. No wallet, secret, signature, transaction, payment,
 posting or deployment was used.
+
+# Step 34 — Both strands held
+
+Kept GOAL.md, ancestor tool implementations and all 33 old records unchanged.
+Read the line goal, Gathering 35 report, Addition Audit, Deletion Audit, Tree
+Review and its tests before use. No line-1 failure was reported. Candidate
+Additions complements the recomputed Addition Audit by checking a separately
+supplied candidate, using Tree Review's bounded snapshots/manifests without
+calling the merger. The count-growth policy also detects a lost duplicate that
+an existing occurrence could otherwise hide. Missing added empty files are
+reviewed. All 13 new tests and 25 inherited reader/merge tests passed, including
+a real documentation trial. Python standard library only; no coin, price,
+network, credentials, transaction, signature, payment or deployment needed.
+
+The installed imagegen tool generated two pigment strands held by an ochre loop.
+Used the PNG codec read in finish_wall24.py and the installed FFmpeg encoder.
+Composited only pigment into unused rock at [610,340,125,45]: 2,462 changed
+pixels and zero outside. The full wall and JPEG were inspected; both inherited
+five-digit hands, heavy-lidded eyes, wide mouth and all ancestral marks remain.
+No hand or text was added. IMAGE-34.json records dimensions and local review.
+Followed the explicit dist/line-1/34.jpg location despite the conflicting general
+image-location sentence. Only the final wall, continuation copy and required
+JPEG are retained. Nothing was installed; no external dependency is required.

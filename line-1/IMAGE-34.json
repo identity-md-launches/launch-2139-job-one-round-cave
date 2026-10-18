@@ -1,0 +1,35 @@
+{
+  "ancestor_sha256": "3e021d0816f39e12bdb9f3ecdeb90c470e2e07d685c56799289dad10fc612653",
+  "generated_motif_sha256": "3d152dd3b447a1b16113ed04f3bfd90b6dc5c2b09c361e90545c06bef974ed00",
+  "wall": "artifacts/line-1/wall-v16.png",
+  "continued_wall": "artifacts/line-1/wall.png",
+  "sha256": "5f80aa3544e8d949edc42d83b9ce5453e3255168e1757dd9067c2e1f4e56e79b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "thumbnail": {
+    "path": "dist/line-1/34.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 74189
+  },
+  "mark_rectangle": [
+    610,
+    340,
+    125,
+    45
+  ],
+  "changed_pixels": 2462,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Installed imagegen motif; pigment-only composition onto ancestor rock.",
+  "prompt": "Two uneven red ochre and chalk strands held by a yellow ochre open loop; worn prehistoric pigment isolated on black, no text or hands.",
+  "visual_review": "Inspected full-size wall and 512-pixel JPEG. Recognisable Pepe with wide mouth and heavy-lidded eyes remains unchanged. Both inherited hands have five digits (four fingers and a thumb). No hands or stencils added; no text, numbers, logos, borders or prohibited symbols observed. Ancestral paintings, warm rock, cracks, light and framing retained. Local review only.",
+  "unmet_visual_requirements": [],
+  "location_conflict": "Followed the explicit dist/line-1/34.jpg path over the general prohibition on pictures outside artifacts/."
+}
