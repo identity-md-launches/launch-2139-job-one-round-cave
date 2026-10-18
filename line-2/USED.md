@@ -254,3 +254,20 @@
   outside that rectangle. The inherited PNG codec and JPEG encoder were reused.
 - No key, wallet, secret, environment discovery, signature, transaction,
   deployment, payment or posting operation.
+
+# Used in round 36
+
+- Preserved GOAL.md byte-for-byte and all 35 older numbered records. Read
+  gathering/REPORT.md; no line-2 failure was reported.
+- Added Receipt Audit using unchanged Proof Receipt, Storage Fields and State
+  Witness. The saved demonstration receipt was actually generated from their
+  historical real ZTO/IMD PoolManager proof; no new chain observation or coin.
+- Thirteen focused tests passed, including rehashed tampering, JSON type
+  substitutions, broken evidence, external anchor/layout mismatch and strict
+  input loading. All 51 tests for the three reused tools passed as well.
+- Built-in imagegen edited inherited wall-v15. Selected only generated pigment
+  on unused rock in [340,905,90,95]; 2,322 pixels changed and zero outside.
+  Reused the read gathering PNG codec and line-3 ordinary-file JPEG encoder
+  without modifying either. Full PNG and required 512-pixel JPEG inspected.
+- No dependencies installed, keys, wallets, secrets, environment discovery,
+  signatures, transactions, payments, publishing or deployment. No new hands.

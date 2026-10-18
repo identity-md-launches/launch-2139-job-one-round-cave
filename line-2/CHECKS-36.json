@@ -1,0 +1,22 @@
+{
+  "round": 36,
+  "newTests": 13,
+  "inheritedTests": 51,
+  "allPassed": true,
+  "explicitCheckExitCode": 0,
+  "explicitCheckResult": {
+    "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "digestPinned": false,
+    "fieldCount": 5,
+    "format": "receipt-audit/1",
+    "layoutSha256": "6d3bbc017f81f66d785f895fe1cffaa65c9ec4351f8043fb92b93e3ed331fd0a",
+    "receiptSha256": "e6ce4e90a58dbb6b1399e76a13e56f0f4559c5a101133df3fc2da5a779be9999",
+    "slotCount": 1,
+    "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+    "trust": "Saved receipt matches freshly verified evidence against the supplied root, address and layout. Root authentication, layout meaning, freshness and consensus remain caller responsibilities. Demo text is ignored.",
+    "verified": true
+  },
+  "structure": "Record count, exact schema, wall digest, unchanged goal and older records, path scope and size bounds passed.",
+  "imageValidation": "Image inspect tool validated 1254x1254 PNG and 512x512 JPEG. Full wall and thumbnail visually inspected.",
+  "namedWallUntracked": true
+}

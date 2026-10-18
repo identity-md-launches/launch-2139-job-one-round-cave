@@ -1,0 +1,31 @@
+{
+  "round": 36,
+  "ancestorSha256": "8716d19560c0ce3a40baef2c907c3421865ab2791971230967024ef1e6b9f41b",
+  "wallSha256": "1f340760953433c1d770d95fa895d05960223f053d2698571538e293d44d377c",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    340,
+    905,
+    90,
+    95
+  ],
+  "changedPixels": 2322,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Built-in imagegen edit of inherited wall; selected only new chalk, charcoal and ochre pigment within bare-rock rectangle; all other pixels copied from ancestor.",
+  "visualReview": "Two chalk dots with a curved charcoal link and broken ochre arc. Existing Pepe, two five-digit hands, ancestor pigment, rock, light, crystals and framing preserved. No added hands, letters or numbers.",
+  "unmetVisualRequirements": [],
+  "preview": {
+    "path": "dist/line-2/36.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 77931
+  }
+}

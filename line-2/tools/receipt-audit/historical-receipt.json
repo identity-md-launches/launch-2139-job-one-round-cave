@@ -1,0 +1,45 @@
+{
+  "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+  "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+  "demo": "Real ZTO/IMD historical fixture at block 26212390; illustrative RPC-observed root, not an independently authenticated checkpoint.",
+  "format": "proof-receipt/1",
+  "layoutSha256": "6d3bbc017f81f66d785f895fe1cffaa65c9ec4351f8043fb92b93e3ed331fd0a",
+  "receiptSha256": "e6ce4e90a58dbb6b1399e76a13e56f0f4559c5a101133df3fc2da5a779be9999",
+  "slots": [
+    {
+      "fields": [
+        {
+          "name": "sqrtPriceX96",
+          "rawBits": "0x10675ff9d949ea2d3c11613bc41",
+          "valueDecimal": "20794297345123442418062648917057"
+        },
+        {
+          "name": "tick",
+          "rawBits": "0x1b32f",
+          "valueDecimal": "111407"
+        },
+        {
+          "name": "protocolFee0To1",
+          "rawBits": "0x0",
+          "valueDecimal": "0"
+        },
+        {
+          "name": "protocolFee1To0",
+          "rawBits": "0x0",
+          "valueDecimal": "0"
+        },
+        {
+          "name": "lpFee",
+          "rawBits": "0x30d4",
+          "valueDecimal": "12500"
+        }
+      ],
+      "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+      "storageExists": true,
+      "unusedBits": "0x0",
+      "word": "0x0000000030d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+    }
+  ],
+  "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+  "verified": true
+}
