@@ -1,0 +1,14 @@
+{
+  "repair": "Provide the required versioned output using the existing finished wall without changing its bytes.",
+  "output": "artifacts/line-3/wall-v16.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "9a7bef978ad6fc15f7815417034551c43b7c3e1dceea68bc84ac32eb770fc0a5",
+  "identical_to": "artifacts/line-3/wall-v15.png",
+  "record": "dist/line-3/35.json",
+  "unmet_visual_requirements": [],
+  "visual_review": "Existing cave framing, rock, Pepe figures and marks retained; no new painting introduced during this repair."
+}
